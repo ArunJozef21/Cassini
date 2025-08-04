@@ -1,0 +1,6 @@
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\req_res_valid_creds.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://reqres.in/api/login
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '57'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{"email": "eve.holt@reqres.in", "password": "cityslicka"}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 200
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Response Body: {"token":"QpwL5tke4Pnpja7X4"}

@@ -1,0 +1,70 @@
+[32mINFO    [0m tests.test_auth:test_auth.py:57 Executing test :  test_req_res_tc_auth_003
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\resq_res_missing_pwd.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Request: POST https://reqres.in/api/login
+[32mINFO    [0m apitutils.request_helper:request_helper.py:29 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '31'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:30 Request Body: b'{"email": "eve.holt@reqres.in"}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:31 Response Status: 503
+[32mINFO    [0m apitutils.request_helper:request_helper.py:32 RESPONSE: 503 for https://reqres.in/api/login
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:33 Response Body: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Application Error</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://www.herokucdn.com/error-pages/application-error.html"></iframe>
+  </body>
+</html>
+[32mINFO    [0m tests.test_auth:test_auth.py:57 Executing test :  test_req_res_tc_auth_003
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\resq_res_missing_pwd.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Request: POST https://reqres.in/api/login
+[32mINFO    [0m apitutils.request_helper:request_helper.py:29 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '31'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:30 Request Body: b'{"email": "eve.holt@reqres.in"}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:31 Response Status: 503
+[32mINFO    [0m apitutils.request_helper:request_helper.py:32 RESPONSE: 503 for https://reqres.in/api/login
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:33 Response Body: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Application Error</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://www.herokucdn.com/error-pages/application-error.html"></iframe>
+  </body>
+</html>

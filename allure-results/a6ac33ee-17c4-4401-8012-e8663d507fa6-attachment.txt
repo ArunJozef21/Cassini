@@ -1,0 +1,13 @@
+[32mINFO    [0m apitutils.request_helper:test_crud_operations.py:19 Executing test :  test_jsonpath_tc_crud_001
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\jsonpath_valid_post_data.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Request: POST https://jsonplaceholder.typicode.com/posts
+[32mINFO    [0m apitutils.request_helper:request_helper.py:29 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '108'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:30 Request Body: b'{"title": "Test Post Title", "body": "This is a test post body content for automation testing", "userId": 1}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:31 Response Status: 201
+[32mINFO    [0m apitutils.request_helper:request_helper.py:32 RESPONSE: 201 for https://jsonplaceholder.typicode.com/posts
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:33 Response Body: {
+  "title": "Test Post Title",
+  "body": "This is a test post body content for automation testing",
+  "userId": 1,
+  "id": 101
+}

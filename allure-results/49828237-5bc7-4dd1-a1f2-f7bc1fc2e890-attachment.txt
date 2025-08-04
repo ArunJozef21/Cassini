@@ -1,0 +1,6 @@
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\gorest_post_nack_02.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://gorest.co.in/public/v2/users
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '91'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{"name": "John Doe", "email": "invalid-email-format", "gender": "male", "status": "active"}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 422
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Response Body: [{"field":"email","message":"is invalid"}]

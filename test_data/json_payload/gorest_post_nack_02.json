@@ -1,0 +1,6 @@
+{
+"name": "John Doe",
+"email": "invalid-email-format",
+"gender": "male",
+"status": "active"
+}

@@ -1,0 +1,12 @@
+2025-08-04 23:06:47,227 - INFO - Executing test :  test_tc_crud_003[1]
+2025-08-04 23:06:47,477 - INFO - Request: GET https://jsonplaceholder.typicode.com/posts/1
+2025-08-04 23:06:47,477 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1'}
+2025-08-04 23:06:47,477 - INFO - Request Body: None
+2025-08-04 23:06:47,477 - INFO - Response Status: 200
+2025-08-04 23:06:47,477 - INFO - RESPONSE: 200 for https://jsonplaceholder.typicode.com/posts/1
+2025-08-04 23:06:47,477 - DEBUG - Response Body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}

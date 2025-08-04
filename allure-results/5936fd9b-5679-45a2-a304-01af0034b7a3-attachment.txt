@@ -1,0 +1,9 @@
+[32mINFO    [0m tests.test_error_cases:test_error_cases.py:48 Executing test :  test_tc_error_003
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Request: GET https://jsonplaceholder.typicode.com/invalidendpoint
+[32mINFO    [0m apitutils.request_helper:request_helper.py:29 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:30 Request Body: None
+[32mINFO    [0m apitutils.request_helper:request_helper.py:31 Response Status: 404
+[32mINFO    [0m apitutils.request_helper:request_helper.py:32 RESPONSE: 404 for https://jsonplaceholder.typicode.com/invalidendpoint
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:33 Response Body: {}
+[32mINFO    [0m tests.test_error_cases:test_error_cases.py:50 *******
+[32mINFO    [0m tests.test_error_cases:test_error_cases.py:51 {}
