@@ -1,0 +1,33 @@
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:33 Executing test :  test_tc_edge_001
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:34 ==============================================================
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\gorest_create_user_empty.json
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:37 =======
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://gorest.co.in/public/v2/users
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 422
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 RESPONSE: 422 for https://gorest.co.in/public/v2/users
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:29 Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:40 *******
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:33 Executing test :  test_tc_edge_001
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:34 ==============================================================
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\gorest_create_user_empty.json
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:37 =======
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://gorest.co.in/public/v2/users
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 422
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 RESPONSE: 422 for https://gorest.co.in/public/v2/users
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:29 Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:40 *******
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:33 Executing test :  test_tc_edge_001
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:34 ==============================================================
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\gorest_create_user_empty.json
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:37 =======
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://gorest.co.in/public/v2/users
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 422
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 RESPONSE: 422 for https://gorest.co.in/public/v2/users
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:29 Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+[32mINFO    [0m tests.test_edge_cases:test_edge_cases.py:40 *******

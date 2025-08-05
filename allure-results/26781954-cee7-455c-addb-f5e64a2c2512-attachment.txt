@@ -1,7 +1,0 @@
-[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: GET https://jsonplaceholder.typicode.com/invalidendpoint
-[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
-[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: None
-[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 404
-[32mINFO    [0m apitutils.request_helper:request_helper.py:28 Response Body: {}
-[32mINFO    [0m tests.test_error_cases:test_error_cases.py:43 *******
-[32mINFO    [0m tests.test_error_cases:test_error_cases.py:44 {}

@@ -65,3 +65,13 @@ Log files are located under :
 PIPE LINE integration steps are added in groovy script:
         
         /JenkinsFile
+
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)

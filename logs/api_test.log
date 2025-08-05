@@ -1,139 +1,139 @@
-2025-08-04 23:09:06,563 - INFO - Request: POST https://reqres.in/api/login
-2025-08-04 23:09:06,580 - INFO - Executing test :  test_reqres_tc_auth_002
-2025-08-04 23:09:07,001 - INFO - Executing test :  test_req_res_tc_auth_003
+2025-08-05 10:26:14,708 - INFO - Request: POST https://reqres.in/api/login
+2025-08-05 10:26:14,755 - INFO - Executing test :  test_reqres_tc_auth_002
+2025-08-05 10:26:15,050 - INFO - Executing test :  test_req_res_tc_auth_003
 on': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '57'}
-2025-08-04 23:09:06,563 - INFO - Request Body: b'{"email": "eve.holt@reqres.in", "password": "cityslicka"}'
-2025-08-04 23:09:06,563 - INFO - Response Status: 200
-2025-08-04 23:09:06,563 - INFO - RESPONSE: 200 for https://reqres.in/api/login
-2025-08-04 23:09:06,563 - DEBUG - Response Body: {"token":"QpwL5tke4Pnpja7X4"}
-2025-08-04 23:09:07,001 - INFO - Request: POST https://reqres.in/api/login
-2025-08-04 23:09:07,001 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '58'}
-2025-08-04 23:09:07,001 - INFO - Request Body: b'{"email": "eve.holt@reqress.in", "password": "cityslicka"}'
-2025-08-04 23:09:07,001 - INFO - Response Status: 400
-2025-08-04 23:09:07,001 - INFO - RESPONSE: 400 for https://reqres.in/api/login
-2025-08-04 23:09:07,001 - DEBUG - Response Body: {"error":"user not found"}
-2025-08-04 23:09:07,528 - INFO - Request: POST https://reqres.in/api/login
-2025-08-04 23:09:07,528 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '31'}
-2025-08-04 23:09:07,528 - INFO - Request Body: b'{"email": "eve.holt@reqres.in"}'
-2025-08-04 23:09:07,528 - INFO - Response Status: 400
-2025-08-04 23:09:07,528 - INFO - RESPONSE: 400 for https://reqres.in/api/login
-2025-08-04 23:09:07,528 - DEBUG - Response Body: {"error":"Missing password"}
-2025-08-04 23:09:07,528 - INFO - Executing test :  test_jsonpath_tc_crud_001
-2025-08-04 23:09:08,353 - INFO - Request: POST https://jsonplaceholder.typicode.com/posts
-2025-08-04 23:09:08,353 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '108'}
-2025-08-04 23:09:08,353 - INFO - Request Body: b'{"title": "Test Post Title", "body": "This is a test post body content for automation testing", "userId": 1}'
-2025-08-04 23:09:08,353 - INFO - Response Status: 201
-2025-08-04 23:09:08,353 - INFO - RESPONSE: 201 for https://jsonplaceholder.typicode.com/posts
-2025-08-04 23:09:08,353 - DEBUG - Response Body: {
+2025-08-05 10:26:14,708 - INFO - Request Body: b'{"email": "eve.holt@reqres.in", "password": "cityslicka"}'
+2025-08-05 10:26:14,708 - INFO - Response Status: 200
+2025-08-05 10:26:14,708 - INFO - RESPONSE: 200 for https://reqres.in/api/login
+2025-08-05 10:26:14,708 - DEBUG - Response Body: {"token":"QpwL5tke4Pnpja7X4"}
+2025-08-05 10:26:15,040 - INFO - Request: POST https://reqres.in/api/login
+2025-08-05 10:26:15,041 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '58'}
+2025-08-05 10:26:15,041 - INFO - Request Body: b'{"email": "eve.holt@reqress.in", "password": "cityslicka"}'
+2025-08-05 10:26:15,041 - INFO - Response Status: 400
+2025-08-05 10:26:15,042 - INFO - RESPONSE: 400 for https://reqres.in/api/login
+2025-08-05 10:26:15,042 - DEBUG - Response Body: {"error":"user not found"}
+2025-08-05 10:26:15,538 - INFO - Request: POST https://reqres.in/api/login
+2025-08-05 10:26:15,538 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '31'}
+2025-08-05 10:26:15,538 - INFO - Request Body: b'{"email": "eve.holt@reqres.in"}'
+2025-08-05 10:26:15,538 - INFO - Response Status: 400
+2025-08-05 10:26:15,538 - INFO - RESPONSE: 400 for https://reqres.in/api/login
+2025-08-05 10:26:15,538 - DEBUG - Response Body: {"error":"Missing password"}
+2025-08-05 10:26:15,553 - INFO - Executing test :  test_jsonpath_tc_crud_001
+2025-08-05 10:26:16,478 - INFO - Request: POST https://jsonplaceholder.typicode.com/posts
+2025-08-05 10:26:16,478 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '108'}
+2025-08-05 10:26:16,494 - INFO - Request Body: b'{"title": "Test Post Title", "body": "This is a test post body content for automation testing", "userId": 1}'
+2025-08-05 10:26:16,494 - INFO - Response Status: 201
+2025-08-05 10:26:16,494 - INFO - RESPONSE: 201 for https://jsonplaceholder.typicode.com/posts
+2025-08-05 10:26:16,494 - DEBUG - Response Body: {
   "title": "Test Post Title",
   "body": "This is a test post body content for automation testing",
   "userId": 1,
   "id": 101
 }
-2025-08-04 23:09:08,353 - INFO - Executing test :  test_tc_crud_002
-2025-08-04 23:09:08,696 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:08,696 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '115'}
-2025-08-04 23:09:08,696 - INFO - Request Body: b'{"name": "John Doe Automation", "email": "john.doe17.automation@example.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:08,696 - INFO - Response Status: 201
-2025-08-04 23:09:08,696 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:08,711 - DEBUG - Response Body: {"id":8049968,"name":"John Doe Automation","email":"john.doe17.automation@example.com","gender":"male","status":"active"}
-2025-08-04 23:09:09,215 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:09,215 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '115'}
-2025-08-04 23:09:09,215 - INFO - Request Body: b'{"name": "John Doe Automation", "email": "john.doe17.automation@example.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:09,215 - INFO - Response Status: 422
-2025-08-04 23:09:09,215 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:09,215 - DEBUG - Response Body: [{"field":"email","message":"has already been taken"}]
-2025-08-04 23:09:09,215 - INFO - Executing test :  test_tc_crud_003[1]
-2025-08-04 23:09:09,429 - INFO - Request: GET https://jsonplaceholder.typicode.com/posts/1
-2025-08-04 23:09:09,429 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1'}
-2025-08-04 23:09:09,429 - INFO - Request Body: None
-2025-08-04 23:09:09,429 - INFO - Response Status: 200
-2025-08-04 23:09:09,429 - INFO - RESPONSE: 200 for https://jsonplaceholder.typicode.com/posts/1
-2025-08-04 23:09:09,429 - DEBUG - Response Body: {
+2025-08-05 10:26:16,512 - INFO - Executing test :  test_tc_crud_002
+2025-08-05 10:26:17,172 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:17,173 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '115'}
+2025-08-05 10:26:17,173 - INFO - Request Body: b'{"name": "John Doe Automation", "email": "john.doe18.automation@example.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:17,173 - INFO - Response Status: 201
+2025-08-05 10:26:17,174 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:17,174 - DEBUG - Response Body: {"id":8050478,"name":"John Doe Automation","email":"john.doe18.automation@example.com","gender":"male","status":"active"}
+2025-08-05 10:26:17,603 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:17,603 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '115'}
+2025-08-05 10:26:17,604 - INFO - Request Body: b'{"name": "John Doe Automation", "email": "john.doe18.automation@example.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:17,604 - INFO - Response Status: 422
+2025-08-05 10:26:17,605 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:17,605 - DEBUG - Response Body: [{"field":"email","message":"has already been taken"}]
+2025-08-05 10:26:17,612 - INFO - Executing test :  test_tc_crud_003[1]
+2025-08-05 10:26:17,839 - INFO - Request: GET https://jsonplaceholder.typicode.com/posts/1
+2025-08-05 10:26:17,839 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1'}
+2025-08-05 10:26:17,840 - INFO - Request Body: None
+2025-08-05 10:26:17,840 - INFO - Response Status: 200
+2025-08-05 10:26:17,840 - INFO - RESPONSE: 200 for https://jsonplaceholder.typicode.com/posts/1
+2025-08-05 10:26:17,841 - DEBUG - Response Body: {
   "userId": 1,
   "id": 1,
   "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
   "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
-2025-08-04 23:09:09,868 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:09,868 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '20'}
-2025-08-04 23:09:09,868 - INFO - Request Body: b'{"name": "John Doe"}'
-2025-08-04 23:09:09,868 - INFO - Response Status: 422
-2025-08-04 23:09:09,868 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:09,868 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
-2025-08-04 23:09:10,356 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:10,357 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '91'}
-2025-08-04 23:09:10,357 - INFO - Request Body: b'{"name": "John Doe", "email": "invalid-email-format", "gender": "male", "status": "active"}'
-2025-08-04 23:09:10,357 - INFO - Response Status: 422
-2025-08-04 23:09:10,357 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:10,357 - DEBUG - Response Body: [{"field":"email","message":"is invalid"}]
-2025-08-04 23:09:10,836 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:10,836 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '89'}
-2025-08-04 23:09:10,836 - INFO - Request Body: b'{"name": "John Doe", "email": "john@example.com", "gender": "unknown", "status": "maybe"}'
-2025-08-04 23:09:10,836 - INFO - Response Status: 422
-2025-08-04 23:09:10,851 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:10,851 - DEBUG - Response Body: [{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"},{"field":"email","message":"has already been taken"}]
-2025-08-04 23:09:11,362 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:11,362 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
-2025-08-04 23:09:11,362 - INFO - Request Body: b'{}'
-2025-08-04 23:09:11,362 - INFO - Response Status: 422
-2025-08-04 23:09:11,362 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:11,362 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
-2025-08-04 23:09:13,000 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:13,000 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
-2025-08-04 23:09:13,000 - INFO - Request Body: b'{}'
-2025-08-04 23:09:13,000 - INFO - Response Status: 422
-2025-08-04 23:09:13,000 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:13,000 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
-2025-08-04 23:09:14,406 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:14,406 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
-2025-08-04 23:09:14,406 - INFO - Request Body: b'{}'
-2025-08-04 23:09:14,406 - INFO - Response Status: 422
-2025-08-04 23:09:14,406 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:14,406 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
-2025-08-04 23:09:14,877 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:14,877 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '463'}
-2025-08-04 23:09:14,877 - INFO - Request Body: b'{"name": "jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:14,877 - INFO - Response Status: 201
-2025-08-04 23:09:14,877 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:14,877 - DEBUG - Response Body: {"id":8049969,"name":"jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA","email":"jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com","gender":"male","status":"active"}
-2025-08-04 23:09:15,218 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:15,218 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '465'}
-2025-08-04 23:09:15,218 - INFO - Request Body: b'{"name": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:15,218 - INFO - Response Status: 422
-2025-08-04 23:09:15,218 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:15,218 - DEBUG - Response Body: [{"field":"name","message":"is too long (maximum is 200 characters)"},{"field":"email","message":"is too long (maximum is 200 characters)"}]
-2025-08-04 23:09:15,550 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:15,565 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '464'}
-2025-08-04 23:09:15,565 - INFO - Request Body: b'{"name": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:15,566 - INFO - Response Status: 422
-2025-08-04 23:09:15,566 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:15,566 - DEBUG - Response Body: [{"field":"email","message":"is too long (maximum is 200 characters)"}]
-2025-08-04 23:09:16,070 - INFO - Request: POST https://gorest.co.in/public/v2/users
-2025-08-04 23:09:16,070 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '164'}
-2025-08-04 23:09:16,070 - INFO - Request Body: b'{"name": "Jos\\u00c3\\u00a9 Mar\\u00c3\\u00ada Gonz\\u00c3\\u00a1lez-P\\u00c3\\u00a9rez \\u00c2\\u00a3$%^", "email": "jose9@muller.com", "gender": "male", "status": "active"}'
-2025-08-04 23:09:16,070 - INFO - Response Status: 201
-2025-08-04 23:09:16,070 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
-2025-08-04 23:09:16,070 - DEBUG - Response Body: {"id":8049970,"name":"José María González-Pérez £$%^","email":"jose9@muller.com","gender":"male","status":"active"}
-2025-08-04 23:09:16,268 - INFO - Request: GET https://jsonplaceholder.typicode.com/posts/99999
-2025-08-04 23:09:16,268 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
-2025-08-04 23:09:16,268 - INFO - Request Body: None
-2025-08-04 23:09:16,268 - INFO - Response Status: 404
-2025-08-04 23:09:16,268 - INFO - RESPONSE: 404 for https://jsonplaceholder.typicode.com/posts/99999
-2025-08-04 23:09:16,268 - DEBUG - Response Body: {}
-2025-08-04 23:09:17,416 - INFO - Request: DELETE https://httpbin.org/get
-2025-08-04 23:09:17,416 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '0'}
-2025-08-04 23:09:17,416 - INFO - Request Body: None
-2025-08-04 23:09:17,416 - INFO - Response Status: 405
-2025-08-04 23:09:17,416 - INFO - RESPONSE: 405 for https://httpbin.org/get
-2025-08-04 23:09:17,416 - DEBUG - Response Body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+2025-08-05 10:26:18,296 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:18,296 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '20'}
+2025-08-05 10:26:18,296 - INFO - Request Body: b'{"name": "John Doe"}'
+2025-08-05 10:26:18,309 - INFO - Response Status: 422
+2025-08-05 10:26:18,311 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:18,313 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-08-05 10:26:18,770 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:18,770 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '91'}
+2025-08-05 10:26:18,770 - INFO - Request Body: b'{"name": "John Doe", "email": "invalid-email-format", "gender": "male", "status": "active"}'
+2025-08-05 10:26:18,770 - INFO - Response Status: 422
+2025-08-05 10:26:18,770 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:18,770 - DEBUG - Response Body: [{"field":"email","message":"is invalid"}]
+2025-08-05 10:26:19,307 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:19,307 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '89'}
+2025-08-05 10:26:19,307 - INFO - Request Body: b'{"name": "John Doe", "email": "john@example.com", "gender": "unknown", "status": "maybe"}'
+2025-08-05 10:26:19,307 - INFO - Response Status: 422
+2025-08-05 10:26:19,307 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:19,307 - DEBUG - Response Body: [{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"},{"field":"email","message":"has already been taken"}]
+2025-08-05 10:26:19,803 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:19,805 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+2025-08-05 10:26:19,812 - INFO - Request Body: b'{}'
+2025-08-05 10:26:19,812 - INFO - Response Status: 422
+2025-08-05 10:26:19,812 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:19,812 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-08-05 10:26:21,645 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:21,645 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+2025-08-05 10:26:21,645 - INFO - Request Body: b'{}'
+2025-08-05 10:26:21,645 - INFO - Response Status: 422
+2025-08-05 10:26:21,645 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:21,645 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-08-05 10:26:23,151 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:23,151 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '2'}
+2025-08-05 10:26:23,151 - INFO - Request Body: b'{}'
+2025-08-05 10:26:23,151 - INFO - Response Status: 422
+2025-08-05 10:26:23,151 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:23,151 - DEBUG - Response Body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-08-05 10:26:23,717 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:23,717 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '463'}
+2025-08-05 10:26:23,717 - INFO - Request Body: b'{"name": "kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:23,717 - INFO - Response Status: 201
+2025-08-05 10:26:23,717 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:23,717 - DEBUG - Response Body: {"id":8050479,"name":"kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA","email":"kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com","gender":"male","status":"active"}
+2025-08-05 10:26:24,422 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:24,422 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '465'}
+2025-08-05 10:26:24,422 - INFO - Request Body: b'{"name": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:24,422 - INFO - Response Status: 422
+2025-08-05 10:26:24,422 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:24,422 - DEBUG - Response Body: [{"field":"name","message":"is too long (maximum is 200 characters)"},{"field":"email","message":"is too long (maximum is 200 characters)"}]
+2025-08-05 10:26:24,869 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:24,869 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '464'}
+2025-08-05 10:26:24,869 - INFO - Request Body: b'{"name": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaAAAA", "email": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA@example.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:24,869 - INFO - Response Status: 422
+2025-08-05 10:26:24,869 - INFO - RESPONSE: 422 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:24,869 - DEBUG - Response Body: [{"field":"email","message":"is too long (maximum is 200 characters)"}]
+2025-08-05 10:26:25,943 - INFO - Request: POST https://gorest.co.in/public/v2/users
+2025-08-05 10:26:25,944 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer adcbb5143755d9b0ba2be8a3e47eed9f1e97f66d7c8ecbff13e8d94a49e59dc4', 'Content-Type': 'application/json', 'Content-Length': '165'}
+2025-08-05 10:26:25,944 - INFO - Request Body: b'{"name": "Jos\\u00c3\\u00a9 Mar\\u00c3\\u00ada Gonz\\u00c3\\u00a1lez-P\\u00c3\\u00a9rez \\u00c2\\u00a3$%^", "email": "jose10@muller.com", "gender": "male", "status": "active"}'
+2025-08-05 10:26:25,945 - INFO - Response Status: 201
+2025-08-05 10:26:25,945 - INFO - RESPONSE: 201 for https://gorest.co.in/public/v2/users
+2025-08-05 10:26:25,945 - DEBUG - Response Body: {"id":8050480,"name":"José María González-Pérez £$%^","email":"jose10@muller.com","gender":"male","status":"active"}
+2025-08-05 10:26:26,834 - INFO - Request: GET https://jsonplaceholder.typicode.com/posts/99999
+2025-08-05 10:26:26,834 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
+2025-08-05 10:26:26,834 - INFO - Request Body: None
+2025-08-05 10:26:26,834 - INFO - Response Status: 404
+2025-08-05 10:26:26,834 - INFO - RESPONSE: 404 for https://jsonplaceholder.typicode.com/posts/99999
+2025-08-05 10:26:26,834 - DEBUG - Response Body: {}
+2025-08-05 10:26:28,264 - INFO - Request: DELETE https://httpbin.org/get
+2025-08-05 10:26:28,264 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '0'}
+2025-08-05 10:26:28,280 - INFO - Request Body: None
+2025-08-05 10:26:28,280 - INFO - Response Status: 405
+2025-08-05 10:26:28,280 - INFO - RESPONSE: 405 for https://httpbin.org/get
+2025-08-05 10:26:28,280 - DEBUG - Response Body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>405 Method Not Allowed</title>
 <h1>Method Not Allowed</h1>
 <p>The method is not allowed for the requested URL.</p>
 
-2025-08-04 23:09:17,677 - INFO - Request: GET https://jsonplaceholder.typicode.com/invalidendpoint
-2025-08-04 23:09:17,677 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
-2025-08-04 23:09:17,677 - INFO - Request Body: None
-2025-08-04 23:09:17,677 - INFO - Response Status: 404
-2025-08-04 23:09:17,677 - INFO - RESPONSE: 404 for https://jsonplaceholder.typicode.com/invalidendpoint
-2025-08-04 23:09:17,677 - DEBUG - Response Body: {}
+2025-08-05 10:26:29,183 - INFO - Request: GET https://jsonplaceholder.typicode.com/invalidendpoint
+2025-08-05 10:26:29,183 - INFO - Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
+2025-08-05 10:26:29,198 - INFO - Request Body: None
+2025-08-05 10:26:29,198 - INFO - Response Status: 404
+2025-08-05 10:26:29,199 - INFO - RESPONSE: 404 for https://jsonplaceholder.typicode.com/invalidendpoint
+2025-08-05 10:26:29,199 - DEBUG - Response Body: {}

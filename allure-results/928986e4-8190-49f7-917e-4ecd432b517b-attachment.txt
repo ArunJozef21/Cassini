@@ -1,0 +1,8 @@
+[32mINFO    [0m tests.test_auth:test_auth.py:56 Executing test :  test_req_res_tc_auth_003
+[32mINFO    [0m apitutils.json_mapper_utils:json_mapper_utils.py:20 C:\Users\arunj\PycharmProjects\CassiniProject\test_data\json_payload\resq_res_missing_pwd.json
+[32mINFO    [0m apitutils.request_helper:request_helper.py:24 Request: POST https://reqres.in/api/login
+[32mINFO    [0m apitutils.request_helper:request_helper.py:25 Request Headers: {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-API-Key': 'reqres-free-v1', 'Content-Length': '31'}
+[32mINFO    [0m apitutils.request_helper:request_helper.py:26 Request Body: b'{"email": "eve.holt@reqres.in"}'
+[32mINFO    [0m apitutils.request_helper:request_helper.py:27 Response Status: 400
+[32mINFO    [0m apitutils.request_helper:request_helper.py:28 RESPONSE: 400 for https://reqres.in/api/login
+[35mDEBUG   [0m apitutils.request_helper:request_helper.py:29 Response Body: {"error":"Missing password"}
