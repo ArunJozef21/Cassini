@@ -1,8 +1,6 @@
 
 import requests
 from apitutils.logging_util import get_logger
-from apitutils.property_file_util import get_env_api_value
-from tests.conftest import get_api_value
 
 logger = get_logger(__name__)
 
@@ -27,7 +25,6 @@ def log_request_response(response):
     logger.info(f"Response Status: {response.status_code}")
     logger.info(f"RESPONSE: {response.status_code} for {response.url}")
     logger.debug(f"Response Body: {response.text}")
-    # logger.info(f"Response Body: {response.text}")
 
 def send_request(method, url, headers=None, json=None):
     response = requests.request(method, url, headers=headers, json=json)

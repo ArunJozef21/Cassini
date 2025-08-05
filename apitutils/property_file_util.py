@@ -2,12 +2,6 @@ import configparser
 from pathlib import Path
 
 
-# def getApiUrls(endpoint):
-#     config = configparser.ConfigParser()
-#     config_file_path = Path(__file__).parent.parent / 'pytest.ini'
-#     config.read(config_file_path)
-#     return config['API'][endpoint]
-
 def get_env_api_value(env: str, endpoint: str) -> str:
     config = configparser.ConfigParser()
     config_file_path = Path(__file__).parent.parent / 'pytest.ini'

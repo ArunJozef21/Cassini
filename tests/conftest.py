@@ -1,24 +1,10 @@
 import configparser
-import importlib
 from pathlib import Path
-from urllib import request
 
 import pytest as pytest
 import yaml
 
-# from apitutils.property_file_util import PropertyReader, getApiUrls
-# from apitutils.yml_reader import YamlReader
-from apitutils.property_file_util import  get_env_api_value
-from config.config import Config
 
-# env_data_files = importlib.import_module("config.{}".format(Config.ENV_DATA_CONFIG_NAME.value))
-
-
-
-REQ_RES_URI = Config.REQ_RES_URI.value
-JSON_PATH_URI = Config.JSON_PATH_URI.value
-GO_REST_URI = Config.GO_REST_URI.value
-HTTP_BIN_URI = Config.HTTP_BIN_URI.value
 yml_data_path = Path(__file__).parent.parent / 'test_data' / 'yml_data' / 'application_config.yml'
 
 @pytest.fixture(scope="session")
